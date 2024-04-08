@@ -1,0 +1,51 @@
+header {
+    position: fixed; 
+    top: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: pink;
+    color: black;
+    text-align:center;
+    line-height: 40px;
+    font-size: 30px;
+}
+footer {
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    height:30px;
+    background-color:pink;
+    color:black;
+    text-align: center;
+    line-height:30px;
+    font-size:15px;
+}
+nav {
+    position: fixed;
+    top: 40px;
+    width: 100%;
+    height: 20px;
+    background-color: lightblue;
+    color: white;
+    line-height: 20px;
+    padding-left: 20px;
+}
+section {
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+}
+/* 폼 요소 스타일 */
+form {
+text-align: center; 
+justify-content: center; /*요소들을 수평정렬*/
+align-items: center; /*요소들을 수직정렬*/
+display: flex; /*플렉스 박스를 사용하여 요소들을 배치*/
+margin: auto; /*요소의 여백을 자동으로 설정*/
+}
+
+h2 {
+	text-align: center;
+}
